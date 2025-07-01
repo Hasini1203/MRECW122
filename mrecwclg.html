@@ -1,0 +1,206 @@
+<html>
+<head>
+  <title>MRECW College</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1 {
+      color: #2E86C1;
+    }
+    .section {
+      margin-top: 20px;
+    }
+    .department-info {
+      display: none;
+      margin-top: 20px;
+      padding: 15px;
+      border: 1px solid #ccc;
+      background-color: #f8f8f8;
+    }
+    button {
+      margin-top: 10px;
+      padding: 8px 16px;
+      background-color: #2E86C1;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #21618C;
+    }
+  </style>
+</head>
+<body>
+    <style>
+            h1{
+                color:blue;
+                background-color: aqua;
+                height:auto;
+                text-align: center;
+            }
+        </style> 
+   <h1>MALLA REDDY ENGINEERING COLLEGE FOR WOMEN</h1>
+ 
+  <div style="text-align: center">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.mbaitqjoGRhFVi5SPtRDqwHaEO?pid=Api&P=0&h=180">
+  </div>
+  <div class="section">
+    <h2>About College</h2>
+    <p>Malla Reddy Engineering College for Women (MRECW) is a premier institution dedicated to empowering women through quality technical education. The college fosters innovation, leadership, and excellence in engineering and technology.</p>
+  </div>
+
+  <div class="section">
+    <h2>Courses Offered</h2>
+    <ul>
+      <li><button onclick="showCSE()">Department of CSE</button></li>
+      <li><button onclick="showEEE()">Department of EEE</button></li>
+      <li><button onclick="showECE()">Department of ECE</button></li>
+      <li><button onclick="showIOT()">Department of IOT</button></li>
+    </ul>
+  </div>
+
+  <div id="cse-info" class="department-info">
+    <h1>MRECW</h1>
+    <h2>Department of Computer Science and Engineering</h2>
+    <p>About Department: The CSE department at MRECW focuses on modern computer technologies including Artificial Intelligence, Machine Learning, Data Science, and Software Development. It is equipped with state-of-the-art labs and experienced faculty.</p>
+    
+    <p>Successful Story:One of our CSE graduates, Priya Sharma, now works as a Software Engineer at Google after completing her B.Tech at MRECW and winning multiple hackathons.</p>
+
+    <title>Time Table</title>
+
+    <body>
+        <style>
+            table{
+                text-align:center;
+                color:darkblue;
+            }
+            thead{
+                background-color:yellow;
+            }
+            #time{
+                background:chocolate;
+            }
+            #tamil{
+                background-color:crimson;
+            }
+            #english{
+                background-color: aqua;
+            }
+        </style>
+        <h1>My time table</h1>
+        <p>time table effect from 29.02.2025</p>
+        <table border="3">
+            <thead>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </thead>
+            <tr>
+                <th id="time">08.00-9.30</th>
+                <th id="tamil">TAMIL</th>
+                <th id="coding">CODING</th>
+                <th id="English">ENGLISH</th>
+                <th id ="hindi" rowspan="2">HINDI</th>
+                <th id="Malayalam">MALAYALAM</th>
+            </tr>
+            <tr>
+                <th id="time">09.30-10.30</th>
+                <th id="coding">CODING</th>
+                <th id="tamil">TAMIL</th>
+                <th id="English">ENGLISH</th>
+                <th id="English">ENGLISH</th>
+            </tr>
+            <tr>
+                <th id="time">11.30-12.30</th>
+                <th id=""tbreak" colspan="5">TEABREAK</th>
+            </tr>
+            <tr>
+                <th id="time">12.30-01.30</th>
+                <th id="tamil">TAMIL</th>
+                <th id="coding">CODING</th>
+                <th id="Malayalam">MALAYALAM</th>
+                <th id="English">ENGLISH</th>
+                <th id ="hindi">HINDI</th>
+            </tr>
+            <tr>
+                <th id="time">01.30-02.30</th>
+                <th id="English">ENGLISH</th>
+                <th id ="hindi">HINDI</th>
+                <th id="tamil">TAMIL</th>
+                <th id="coding">CODING</th>
+                <th id="Malayalam">MALAYALAM</th>
+            </tr>
+            <tr>
+                <th id="time">02.30-03.30</th>
+                <th id="Lunch Break" colspan="5">LUNCH BREAK</th>
+            </tr>
+            <tr>
+                <th id="time">03.00-04.30</th>
+                <th id="English">ENGLISH</th>
+                <th id ="hindi">HINDI</th>
+                <th id="tamil">TAMIL</th>
+                <th id="coding">CODING</th>
+                <th id="Malayalam">MALAYALAM</th>
+              </tr>
+            <tr>
+                <th id="time">04.00-5.30</th>
+                <th id="tamil">TAMIL</th>
+                <th id="coding">CODING</th>
+                <th id="English">ENGLISH</th>
+                <th id ="hindi">HINDI</th>
+                <th id="Malayalam">MALAYALAM</th>
+            </tr>
+        </table>
+
+    </body>
+  </div>
+
+  <script>
+    function showCSE() {
+      document.getElementById("cse-info").style.display = "block";
+    }
+  </script>
+  <div id="eee-info" class="department-info">
+    <h1>MRECW</h1>
+    <h2>Department of Electrical and Electronics Engineering</h2>
+    <p>About Department: The EEE department at MRECW emphasizes core electrical concepts along with advancements in power systems, renewable energy, and smart grids. The department has well-equipped laboratories and a strong focus on hands-on learning.</p>
+
+    <p>Successful Story: One of our EEE graduates, mishritha, joined Tata Power as an Electrical Design Engineer after contributing to several renewable energy projects during his B.Tech.</p>
+</div>
+<script>
+    function showEEE() {
+      document.getElementById("eee-info").style.display = "block";
+    }
+  </script>
+<div id="ece-info" class="department-info">
+    <h1>MRECW</h1>
+    <h2>Department of Electronics and Communication Engineering</h2>
+    <p>About Department: The ECE department at MRECW specializes in communication systems, VLSI design, embedded systems, and signal processing. It fosters innovation through practical exposure and technical workshops.</p>
+
+    <p>Successful Story: One of our ECE graduates, Sneha Reddy, secured a role as a Hardware Engineer at Intel after presenting her research paper on VLSI design at an international conference.</p>
+</div>
+<script>
+    function showECE() {
+      document.getElementById("ece-info").style.display = "block";
+    }
+  </script>
+<div id="iot-info" class="department-info">
+    <h1>MRECW</h1>
+    <h2>Department of Internet of Things (IoT)</h2>
+    <p>About Department: The IoT department at MRECW integrates electronics, software, and networking to develop smart systems. The curriculum is tailored to real-world applications in smart cities, healthcare, and automation.</p>
+
+    <p>Successful Story: One of our IoT graduates, Ananya , is currently working at Bosch as an IoT Solutions Engineer after building a smart home prototype as part of her final year project.</p>
+</div>
+  <script>
+    function showIOT() {
+      document.getElementById("iot-info").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
